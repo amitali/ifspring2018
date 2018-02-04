@@ -1,0 +1,18 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14;
+	padding-bottom: 2cm;
+	background-color: white;
+	text-align:center;
+}
+h1{
+	font-size:30pt;
+}
+p{
+	font-size:14pt;
+	font-weight:200;
+}
+#subtitle{
+	font-size:16pt;
+	font-weight:100;
+}
