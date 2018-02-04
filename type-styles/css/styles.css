@@ -1,0 +1,46 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	margin: 50px 0 0 150px;
+	font-size: 14;
+	padding-bottom: 2cm;
+}
+h1{
+	font-size:30pt;
+}
+.section{
+	font-color:grey;
+	font-size:18pt;
+	padding-top: 1cm;
+}
+.subtitle{
+	font-color:gray;
+	font-size:10pt;
+}
+.italic{
+	font-style:italic;
+}
+.point03em{
+	letter-spacing:0.3em;
+}
+.pointneg06em{
+	letter-spacing:-0.06em;
+}
+.underline{
+	text-decoration:underline;
+}
+.linethrough{
+	text-decoration:line-through;
+}
+.overline{
+	text-decoration: overline;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.lowercase{
+	text-transform: lowercase;
+}
+.capitalize{
+	text-transform: capitalize;
+}
+
