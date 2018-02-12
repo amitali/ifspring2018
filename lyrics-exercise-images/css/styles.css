@@ -1,0 +1,30 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14;
+	color:white;
+	padding-bottom: 2cm;
+	padding-top: 2cm;
+	background-color: black;
+	text-align:center;
+	background-image: url("glitter.jpg") 
+}
+
+img{
+	width:300px;
+	height:300px;
+}
+
+h1{
+	font-size:40pt;
+	font-style:bold;
+}
+p{
+	font-size:14pt;
+	font-weight:200;
+	background-color: rgba(0, 0, 0, 0.7);
+
+}
+#subtitle{
+	font-size:16pt;
+	font-weight:100;
+}
