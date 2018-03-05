@@ -1,0 +1,39 @@
+html{
+	background-color:#2a2a2a;
+	margin:0px;
+	background-image:url("Group 3.jpg");
+	background-repeat: repeat-x;
+	font-family: 'Open Sans', sans-serif;
+	color:white;
+}
+.lowerhalf{
+	/*top:500px;*/
+	margin-top:500px;
+	opacity:80%;
+}
+
+.album{
+	width:200px;
+	height:200px;
+	margin-left: 40px;
+	margin-top: 70px;
+}
+
+.lyrics{
+    width: 500px;
+    float: left;
+    margin-left:150px;
+    margin-right:150px;
+    font-weight:200;
+}
+.titleside{
+	align-content: center;
+	margin-right:40px;
+}
+#albumdetails{
+	font-weight:100;
+	font-size:14pt;
+}
+.clear {
+      clear: both;
+}
