@@ -1,0 +1,43 @@
+html{
+	background-color:#2a2a2a;
+	margin:0px;
+	;
+	background-repeat: repeat-x;
+	font-family: 'Montserrat', sans-serif;
+	color:white;
+}
+header{
+	margin-top:-20px;
+	margin-left:-10px;
+}
+#headerimg{
+}
+.lowerhalf{
+	/*top:500px;*/
+}
+
+.album{
+	width:200px;
+	height:200px;
+	margin-left: 40px;
+	margin-top: 70px;
+}
+
+.lyrics{
+    width: 550px;
+    float: left;
+    margin-left:150px;
+    margin-right:150px;
+    font-weight:200;
+}
+.titleside{
+	align-content: center;
+	margin-right:40px;
+}
+#albumdetails{
+	font-weight:100;
+	font-size:14pt;
+}
+.clear {
+      clear: both;
+}
