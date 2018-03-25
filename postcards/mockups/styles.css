@@ -1,0 +1,10 @@
+body{
+	max-width: 1000px;
+    margin: auto;}
+.desktop{
+	height:500px;
+	margin-right: 5px;
+}
+.mobile{
+	height: 500px;
+}
