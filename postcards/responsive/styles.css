@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+}
+#quote1{
+	position:relative;
+	width: 500px;
+	left:100px;
+	top:300px;
+	font-family: 'Work Sans', sans-serif;
+    font-size: 38pt;
+    font-weight:800;
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+}
+body{ 
+
+    /* Full height */
+    max-width:100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 750px){
+    #quote1{
+    position:relative;
+    width: 300px;
+    left:0px;
+    top:250px;
+    font-size: 38pt;
+}
