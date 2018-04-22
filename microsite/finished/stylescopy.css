@@ -1,0 +1,36 @@
+body {
+background-image: url("mars.jpg");	
+background-size: cover;
+background-repeat: no-repeat;
+font-family: 'Exo 2', sans-serif;
+color:white;
+background-color: black;
+}
+#title{
+font-family: 'Exo 2', sans-serif;
+font-size:100pt;
+font-weight: 100;
+}
+img{
+	height:500px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
