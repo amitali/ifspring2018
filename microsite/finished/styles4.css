@@ -1,30 +1,46 @@
+html{
+    margin:0px;
+}
 body {
 background-color: black;
 font-family: 'Exo 2', sans-serif;
 color:white;
+}
+
+#headerimg{
+    width: 100%;
 }
 #title{
 color:white;
 font-family: 'Exo 2', sans-serif;
 font-size:50pt;
 font-weight: 700;
-margin-top: 100px;
-margin-left: 870px;
-margin-right:150px;
-padding: 0px;
+width:500px;
+right:0px;
+position:absolute;
+}
+#small{
+    width:300px;
+    margin-top:100px;
+    float:left;
+    margin-left:50px;
+}
+#subtitle{
+    width:300px;
+    margin-top:0px;
+    margin-left:50px;
+    font-size:14pt;
+    font-weight:100;
+    font-style:italic;
+}
 
-}
-img{
-	height:300px;
-}
-#main{
-    margin-left: 550px;
-    padding: -20px;
-    margin-right:150px;
+#text{
     font-size:14pt;
     font-weight:200;
-    margin-top: -320px;
-    text-align: right;
+    text-align: left;
+    margin-right:50px;
+    margin-top:-500px;
+    margin-left:400px;
 }
 .navbar {
     overflow: hidden;
@@ -45,4 +61,28 @@ img{
 .navbar a:hover {
     background: #ddd;
     color: black;
+}
+
+@media screen and (max-width: 880px){
+    #title{
+        font-size:40pt;
+        right:-100px;
+    }
+    #subtitle{
+        margin-left:20px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    #text{
+        font-size:12pt;
+        margin-left:100px;
+    }
+    #subtitle{
+        font-size:12pt;
+        width:250px;
+    }
+    #small{
+        width:250px;
+    }
 }

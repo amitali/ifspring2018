@@ -8,22 +8,23 @@ color:white;
 font-family: 'Exo 2', sans-serif;
 font-size:50pt;
 font-weight: 700;
-margin-top: 100px;
-margin-left: 870px;
-margin-right:150px;
+right:-110px;
 padding: 0px;
-
+width:500px;
+position:absolute;
 }
 img{
 	height:300px;
+    margin-left:50px;
+    margin-top:100px;
 }
-#main{
+#text{
     margin-left: 550px;
     padding: -20px;
     margin-right:150px;
+    margin-top:-250px;
     font-size:14pt;
     font-weight:200;
-    margin-top: -320px;
     text-align: right;
 }
 .navbar {
@@ -45,4 +46,27 @@ img{
 .navbar a:hover {
     background: #ddd;
     color: black;
+}
+@media screen and (max-width: 880px){
+    #title{
+        font-size:40pt;
+        right:-200px;
+    }
+    #subtitle{
+        margin-left:20px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    #text{
+        font-size:12pt;
+        margin-left:100px;
+    }
+    #subtitle{
+        font-size:12pt;
+        width:250px;
+    }
+    img{
+        width:250px;
+    }
 }
