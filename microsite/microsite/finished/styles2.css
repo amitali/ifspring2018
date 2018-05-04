@@ -1,0 +1,73 @@
+body {
+background-color: black;
+font-family: 'Exo 2', sans-serif;
+color:white;
+}
+#title{
+color:white;
+font-family: 'Exo 2', sans-serif;
+font-size:50pt;
+font-weight: 700;
+right:-110px;
+padding: 0px;
+width:500px;
+position:absolute;
+}
+img{
+	height:300px;
+    margin-left:50px;
+    margin-top:100px;
+}
+#text{
+    margin-left: 550px;
+    padding: -20px;
+    margin-right:150px;
+    margin-top:-240px;
+    font-size:16pt;
+    font-weight:100;
+    font-style:italic;
+    text-align: center;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+@media screen and (max-width: 880px){
+    #title{
+        font-size:40pt;
+        right:-200px;
+    }
+    #subtitle{
+        margin-left:20px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    #text{
+        font-size:12pt;
+        margin-left:100px;
+    }
+    #subtitle{
+        font-size:12pt;
+        width:250px;
+    }
+    img{
+        width:250px;
+    }
+}
