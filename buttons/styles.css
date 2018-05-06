@@ -1,0 +1,401 @@
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#main_content {
+	margin: 40px;
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.button_container {
+	border: 1px solid #ddd;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+a#btn_spotify {
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 40px 0 40px;
+	background-color: #2ebd59;
+	border: 2px solid #2ebd59;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: #2ebfec; /* Old browsers */
+				background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+			}
+
+
+			a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+			}
+
+
+			a#btn_indiegogo {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+			}
+
+			a#btn_indiegogo:hover {
+				color: #fff;
+				background-color: #eb1478;
+			}
+
+			a#btn_apple img{
+				width: 70px;
+				height:70px;
+				padding: 50px;
+				margin-top:30px;
+			}
+
+			a#btn_cocacola img{
+				height:50px;
+				padding: 50px;
+				margin-top:30px;
+				align-content: center
+			}
+
+			a#btn_cocacola:hover {
+				color: #fff;
+				background-color: black;
+			}
+
+			a#btn_ibm img{
+				height:50px;
+				padding: 50px;
+				margin-top:30px;
+				align-content: center
+			}
+
+			a#btn_ibm:hover {
+				color: #fff;
+				background-color: aliceblue;
+			}
+			a#btn_nerf img{
+				height:50px;
+				padding: 50px;
+				margin-top:30px;
+				align-content: center
+			}
+			a#btn_harley img{
+				height:70px;
+				padding: 50px;
+				margin-top:30px;
+				align-content: center
+			}
+
+			a#btn_mk img{
+				height:70px;
+				padding: 50px;
+				margin-top:30px;
+				align-content: center
+			}
+			a#btn_ideo img{
+				height:40px;
+				padding: 50px;
+				margin-top:30px;
+				align-content: center
+			}
+			a#btn_sardella img{
+				height:50px;
+				padding: 50px;
+				margin-top:30px;
+				align-content: center
+			}
+			a#btn_craigslist img{
+				height:80px;
+				padding: 50px;
+				margin-top:30px;
+				align-content: center
+			}
+
+			a#btn_lyft img{
+				height:50px;
+				padding: 50px;
+				margin-top:30px;
+				align-content: center;
+			}
+
+			a#btn_samsung img{
+				height:50px;
+				padding: 50px;
+				margin-top:30px;
+				align-content: center;
+			}
+
+			a#btn_samsung:hover {
+				color: #fff;
+				background-color: #034DA2;
+			}
+			a#btn_dimecity img{
+				height:80px;
+				padding: 50px;
+				margin-top:30px;
+				align-content: center;
+			}
+			a#btn_cn img{
+				height:70px;
+				padding: 50px;
+				margin-top:30px;
+				align-content: center;
+			}
+			a#btn_bissingers img{
+				height:100px;
+				padding: 50px;
+				align-content: center;
+			}
+
+			a#btn_bissingers:hover {
+				color: #fff;
+				background-color: goldenrod;
+			}
+			a#btn_ofa img{
+				height:100px;
+				padding: 50px;
+				margin-top:30px;
+				align-content: center;
+			}
+
+			a#btn_ofa:hover {
+				color: #fff;
+				background-color: pink;
+			}
+			a#btn_nbc img{
+				height:80px;
+				padding: 80px;
+				align-content: center
+			}
+
+			a#btn_nbc:hover {
+				color: #fff;
+				background-color: #01274C;
+			}
+			a#btn_nike img{
+				height:120px;
+				padding: 70px;
+				align-content: center
+			}
+			a#btn_mobot img{
+				height:80px;
+				padding: 80px;
+				align-content: center
+			}
+			a#btn_hh img{
+				height:90px;
+				padding: 80px;
+				align-content: center
+			}
+			a#btn_tesla img{
+				height:80px;
+				padding: 80px;
+				align-content: center
+			}
+
+			a#btn_tesla:hover {
+				color: #fff;
+				background-color: lightgray;
+			}
+			a#btn_colorrun img{
+				height:50px;
+				padding: 80px;
+				align-content: center
+			}
+			a#btn_moo img{
+				height:50px;
+				padding: 80px;
+				align-content: center
+			}
+
+			a#btn_moo:hover {
+				color: #fff;
+				background-color: #199E68;
+			}
+			a#btn_pottermore img{
+				height:80px;
+				padding: 80px;
+				align-content: center
+			}
+			a#btn_fitbit img{
+				height:35px;
+				padding: 80px;
+				align-content: center;
+			}
+
+			a#btn_fitbit:hover {
+				color: #fff;
+				background-color: #00B2BA;
+			}
+			a#btn_explodingkittens img{
+				height:80px;
+				padding: 80px;
+				align-content: center;
+			}
+			a#btn_mollyjogger img{
+				height:130px;
+				padding: 50px;
+				align-content: center
+			}
+			a#btn_stjude img{
+				height:80px;
+				padding: 80px;
+				align-content: center
+			}
+			a#btn_newyorker img{
+				height:80px;
+				padding: 80px;
+				align-content: center
+			}
+			a#btn_foreflight img{
+				height:100px;
+				padding: 80px;
+				align-content: center
+			}
+			a#btn_npr img{
+				height:35px;
+				padding: 80px;
+				align-content: center
+			}
+			a#btn_tuckerallen img{
+				height:35px;
+				padding: 80px;
+				align-content: center
+			}
+			a#btn_velocity img{
+				height:60px;
+				padding: 80px;
+				align-content: center
+			}
+
+			a#btn_hsn img{
+				height:70px;
+				padding: 80px;
+				align-content: center
+			}
+			a#btn_ig img{
+				height:70px;
+				padding: 80px;
+				align-content: center
+			}
+
+			a#btn_fb img{
+				height:70px;
+				padding: 80px;
+				align-content: center
+			}
+
+			a#btn_fb:hover {
+				color: #fff;
+				background-color: #3C5A9A;
+			}
+			a#btn_electrabike img{
+				height:100px;
+				padding: 80px;
+				align-content: center
+			}
+
+			a#btn_electrabike:hover {
+				color: #fff;
+				background-color: red;
+			}
+			a#btn_oldnavy img{
+				height:80px;
+				padding: 80px;
+				align-content: center
+			}
+			a#btn_army img{
+				height:70px;
+				padding: 80px;
+				align-content: center
+			}
+
+			a#btn_army:hover {
+				color: #fff;
+				background-color: darkolivegreen;
+			}
+
+
+
+
+
+
+
+
+
+

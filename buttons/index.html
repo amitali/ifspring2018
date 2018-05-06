@@ -1,325 +1,20 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Buttons &mdash; James Fawcett</title>
+		<title>Buttons &mdash; Mitali Avadhani</title>
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-		
-		<style>
-
-			body {
-				color: #333;
-				font-family: 'Open Sans', sans-serif;
-				margin: 0;
-				padding: 0;
-			}
-
-			#main_content {
-				margin: 40px;
-			}
-
-			h1 {
-			 	font-size: 30px;
-			 	margin-bottom: 40px;
-			}
-
-			.button_container {
-				border: 1px solid #ddd;
-				margin: 0 10px 10px 0;
-				padding: 20px;
-				width: 300px;
-				height: 300px;
-				float: left;
-				overflow: hidden;
-				box-sizing: border-box;
-				text-align: center;
-			}
-
-
-
-			a#btn_spotify {
-				display: inline-block;
-				height: 50px;
-				box-sizing: border-box;
-				border-radius: 25px;
-				margin: auto;
-				margin-top: 100px;
-				padding: 10px 40px 0 40px;
-				background-color: #2ebd59;
-				border: 2px solid #2ebd59;
-				color: #fff;
-				font-size: 20px;
-				font-family: 'Montserrat', sans-serif;
-				font-weight: bold;
-				text-decoration: none;
-			}
-
-			a#btn_spotify:hover {
-				background-color: #fff;
-				border: 2px solid #000;
-				color: #000;
-			}
-
-
-			a#btn_twitter {
-				display: inline-block;
-				height: 40px;
-				box-sizing: border-box;
-				border-radius: 4px;
-				margin: auto;
-				margin-top: 105px;
-				padding: 10px 30px 0 30px;
-				background-color: #56cdf1;
-				color: #fff;
-				font-size: 18px;
-				font-family: 'Arial', sans-serif;
-				font-weight: bold;
-				text-decoration: none;
-			}
-
-			a#btn_twitter:hover {
-				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
-				background: #2ebfec; /* Old browsers */
-				background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
-				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
-				background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
-				background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
-				background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
-				background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
-			}
-
-
-			a#btn_amazon {
-				display: block;
-				width: 100px;
-				height: 100px;
-				box-sizing: border-box;
-				border-radius: 50px;
-				margin: auto;
-				margin-top: 75px;
-				padding-top: 8px;
-				background-color: #232f3e;
-				color: #fff;
-				text-align: center;
-				font-size: 60px;
-			}
-
-			a#btn_amazon:hover {
-				background-color: #fc9a18;
-			}
-
-
-			a#btn_indiegogo {
-				display: inline-block;
-				margin:auto;
-				margin-top: 100px;
-				padding: 8px 16px;
-				background-color: #fff;
-				color: #eb1478;
-				font-family: 'Ubuntu', sans-serif;
-				font-size: 30px;
-				font-weight: bold;
-				text-transform: uppercase;
-				text-decoration: none;
-				letter-spacing: -2px;
-			}
-
-			a#btn_indiegogo:hover {
-				color: #fff;
-				background-color: #eb1478;
-			}
-
-			a#btn_apple img{
-				width: 70px;
-				height:70px;
-				padding: 50px;
-				margin-top:30px;
-			}
-
-			a#btn_apple:hover {
-				color: #fff;
-				background-color: black;
-			}
-
-			a#btn_cocacola img{
-				height:50px;
-				padding: 50px;
-				margin-top:30px;
-				align-content: center
-			}
-
-			a#btn_cocacola:hover {
-				color: #fff;
-				background-color: red;
-			}
-
-			a#btn_ibm img{
-				height:50px;
-				padding: 50px;
-				margin-top:30px;
-				align-content: center
-			}
-
-			a#btn_ibm:hover {
-				color: #fff;
-				background-color: blue;
-			}
-			a#btn_nerf img{
-				height:50px;
-				padding: 50px;
-				margin-top:30px;
-				align-content: center
-			}
-
-			a#btn_nerf:hover {
-				color: #fff;
-				background-color: red;
-			}
-			a#btn_harley img{
-				height:50px;
-				padding: 50px;
-				margin-top:30px;
-				align-content: center
-			}
-
-			a#btn_harley:hover {
-				color: #fff;
-				background-color: black;
-			}
-			a#btn_mk img{
-				height:50px;
-				padding: 50px;
-				margin-top:30px;
-				align-content: center
-			}
-
-			a#btn_mk:hover {
-				color: #fff;
-				background-color: black;
-			}
-			a#btn_ideo img{
-				height:40px;
-				padding: 50px;
-				margin-top:30px;
-				align-content: center
-			}
-
-			a#btn_ideo:hover {
-				color: #fff;
-				background-color: black;
-			}
-			a#btn_sardella img{
-				height:50px;
-				padding: 50px;
-				margin-top:30px;
-				align-content: center
-			}
-
-			a#btn_sardella:hover {
-				color: #fff;
-				background-color: blue;
-			}
-			a#btn_craigslist img{
-				height:50px;
-				padding: 50px;
-				margin-top:30px;
-				align-content: center
-			}
-
-			a#btn_craigslist:hover {
-				color: #fff;
-				background-color: purple;
-			}
-			a#btn_lyft img{
-				height:50px;
-				padding: 50px;
-				margin-top:30px;
-				align-content: center
-			}
-
-			a#btn_lyft:hover {
-				color: #fff;
-				background-color: pink;
-			}
-			a#btn_samsung img{
-				height:50px;
-				padding: 50px;
-				margin-top:30px;
-				align-content: center
-			}
-
-			a#btn_samsung:hover {
-				color: #fff;
-				background-color: blue;
-			}
-			a#btn_dimecity img{
-				height:50px;
-				padding: 50px;
-				margin-top:30px;
-				align-content: center
-			}
-
-			a#btn_dimecity:hover {
-				color: #fff;
-				background-color: blue;
-			}
-			a#btn_cn img{
-				height:50px;
-				padding: 50px;
-				margin-top:30px;
-				align-content: center
-			}
-
-			a#btn_cn:hover {
-				color: #fff;
-				background-color: black;
-			}
-			a#btn_bissingers img{
-				height:100px;
-				padding: 100px;
-				margin-top:30px;
-				align-content: center
-			}
-
-			a#btn_bissingers:hover {
-				color: #fff;
-				background-color: brown;
-			}
-			a#btn_ofa img{
-				height:100px;
-				padding: 100px;
-				margin-top:30px;
-				align-content: center
-			}
-
-			a#btn_ofa:hover {
-				color: #fff;
-				background-color: red;
-			}
-			a#btn_nbc img{
-				height:80px;
-				padding: 80px;
-				align-content: center
-			}
-
-			a#btn_nbc:hover {
-				color: #fff;
-				background-color: blue;
-			}
-
-
-
-		</style>
+		<link href="hover-min.css" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
 		
 		<div id="main_content">
 
-			<h1>Button Styling &mdash; James Fawcett</h1>
+			<h1>Button Styling &mdash; Mitali Avadhani</h1>
 			
 			<div class="button_container">
 				<a href="http://www.spotify.com" target="_blank" id="btn_spotify">Spotify</a>
@@ -338,78 +33,124 @@
 			</div>
 			
 			<div class = "button_container">
-				<a href="http://www.apple.com/" target="_blank" id="btn_apple"><img src= "apple.png" alt="apple"></a>
+				<a href="http://www.apple.com/" target="_blank" id="btn_apple" class="button hvr-buzz"><img src= "apple.png" alt="apple"></a>
 			</div>	
 
 			<div class = "button_container">
-				<a href="http://www.coca-cola.com/" target="_blank" id="btn_cocacola"><img src= "cocacola.png" alt="apple"></a>
+				<a href="http://www.coca-cola.com/" target="_blank" id="btn_cocacola" class="button hvr-forward"><img src= "cocacola.png" alt="apple"></a>
 			</div>	
 			<div class = "button_container">
-				<a href="http://www.ibm.com/" target="_blank" id="btn_ibm"><img src= "ibm.png" alt="ibm"></a>
+				<a href="http://www.ibm.com/" target="_blank" id="btn_ibm" class="button hvr-pop"><img src= "ibm.png" alt="ibm"></a>
 			</div>
 			<div class = "button_container">
-				<a href="http://nerf.hasbro.com/en-us" target="_blank" id="btn_nerf"><img src= "nerf.png" alt="nerf"></a>
+				<a href="http://nerf.hasbro.com/en-us" target="_blank" id="btn_nerf" class="button hvr-grow-rotate"><img src= "nerf.png" alt="nerf"></a>
 			</div>
 			<div class = "button_container">
-				<a href="http://www.harley-davidson.com/" target="_blank" id="btn_harley"><img src= "harley.png" alt="harley"></a>
+				<a href="http://www.harley-davidson.com/" target="_blank" id="btn_harley" class="button hvr-bounce-in"><img src= "harley.png" alt="harley"></a>
 			</div>
 			<div class = "button_container">
-				<a href="http://www.michaelkors.com/" target="_blank" id="btn_mk"><img src= "mk.jpg" alt="mk"></a>
+				<a href="http://www.michaelkors.com/" target="_blank" id="btn_mk" class="button hvr-grow"><img src= "mk.jpg" alt="mk"></a>
 			</div>
 			<div class = "button_container">
-				<a href="http://ideo.org/" target="_blank" id="btn_ideo"><img src= "ideo.png" alt="ideo"></a>
+				<a href="http://ideo.org/" target="_blank" id="btn_ideo" class="button hvr-wobble-skew"><img src= "ideo.png" alt="ideo"></a>
 			</div>
 			<div class = "button_container">
-				<a href="http://sardellastl.com/" target="_blank" id="btn_sardella"><img src= "sardella.png" alt="sardella"></a>
+				<a href="http://sardellastl.com/" target="_blank" id="btn_sardella" class="button hvr-bounce-in"><img src= "sardella.png" alt="sardella"></a>
 			</div>
 			<div class = "button_container">
-				<a href="http://stlouis.craigslist.org/" target="_blank" id="btn_craiglist"><img src= "craigslist.jpg" alt="craigslist"></a>
+				<a href="http://stlouis.craigslist.org/" target="_blank" id="btn_craigslist" class="button hvr-push"><img src= "craigslist.jpg" alt="craigslist"></a>
 			</div>
 			<div class = "button_container">
-				<a href="https://www.lyft.com/" target="_blank" id="btn_lyft"><img src= "lyft.png" alt="lyft"></a>
+				<a href="https://www.lyft.com/" target="_blank" id="btn_lyft" class="button hvr-bounce-in"><img src= "lyft.png" alt="lyft"></a>
 			</div>
 			<div class = "button_container">
-				<a href="http://www.samsung.com/us/" target="_blank" id="btn_samsung"><img src= "samsung.png" alt="samsung"></a>
+				<a href="http://www.samsung.com/us/" target="_blank" id="btn_samsung" class="button hvr-grow-rotate"><img src= "samsung.png" alt="samsung"></a>
 			</div>
 			<div class = "button_container">
-				<a href="http://www.dimecitycycles.com/" target="_blank" id="btn_dimecity"><img src= "dimecity.png" alt="dime city cycles"></a>
+				<a href="http://www.dimecitycycles.com/" target="_blank" id="btn_dimecity" class="button hvr-pop"><img src= "dimecity.png" alt="dime city cycles"></a>
 			</div>
 			<div class = "button_container">
-				<a href="http://www.cartoonnetwork.com/" target="_blank" id="btn_cn"><img src= "cn.png" alt="cartoon network"></a>
+				<a href="http://www.cartoonnetwork.com/" target="_blank" id="btn_cn" class="button hvr-skew-forward"><img src= "cn.png" alt="cartoon network"></a>
 			</div>
 			<div class = "button_container">
-				<a href="http://www.bissingers.com/" target="_blank" id="btn_bissingers"><img src= "bissingers.gif" alt="bissingers"></a>
+				<a href="http://www.bissingers.com/" target="_blank" id="btn_bissingers" class="button hvr-pop"><img src= "bissingers.png" alt="bissingers"></a>
 			</div>
 			<div class = "button_container">
-				<a href="https://www.ofa.us/" target="_blank" id="btn_ofa"><img src= "ofa.png" alt="ofa"></a>
+				<a href="https://www.ofa.us/" target="_blank" id="btn_ofa" class="button hvr-wobble-vertical"><img src= "ofa.png" alt="ofa"></a>
 			</div>
 			<div class = "button_container">
-				<a href="http://www.nbc.com/the-tonight-show" target="_blank" id="btn_nbc"><img src= "nbc.jpg" alt="nbc"></a>
+				<a href="http://www.nbc.com/the-tonight-show" target="_blank" id="btn_nbc" class="button hvr-backward"><img src= "nbc.jpg" alt="nbc"></a>
+			</div>
+			<div class = "button_container">
+				<a href="http://www.nike.com/us/en_us/" target="_blank" id="btn_nike" class="button hvr-grow-rotate"><img src= "nike.png" alt="nike"></a>
+			</div>
+			<div class = "button_container">
+				<a href="http://www.missouribotanicalgarden.org/" target="_blank" id="btn_mobot" class="button hvr-shrink"><img src= "mobot.png" alt="missouribotanicalgarden"></a>
+			</div>
+			<div class = "button_container">
+				<a href="http://hulkhogan.com/" target="_blank" id="btn_hh" class="button hvr-grow"><img src= "hh.jpg" alt="hulk hogan"></a>
+			</div>
+			<div class = "button_container">
+				<a href="http://www.teslamotors.com/" target="_blank" id="btn_tesla" class="button hvr-wobble-bottom"><img src= "tesla.png" alt="Tesla Motors"></a>
+			</div>
+			<div class = "button_container">
+				<a href="http://thecolorrun.com/" target="_blank" id="btn_colorrun" class="button hvr-hang"><img src= "colorrun.png" alt="The Color Run"></a>
+			</div>
+			<div class = "button_container">
+				<a href="http://www.moo.com/us/" target="_blank" id="btn_moo" class="button hvr-pulse-grow"><img src= "moo.jpeg" alt="Moo"></a>
+			</div>
+			<div class = "button_container">
+				<a href="https://www.pottermore.com/" target="_blank" id="btn_pottermore" class="button hvr-buzz-out"><img src= "pottermore.png" alt="Pottermore"></a>
+			</div>
+			<div class = "button_container">
+				<a href="http://www.fitbit.com/home" target="_blank" id="btn_fitbit" class="button hvr-wobble-horizontal"><img src= "fitbit.png" alt="Fitbit"></a>
+			</div>
+			<div class = "button_container">
+				<a href="http://www.explodingkittens.com/" target="_blank" id="btn_explodingkittens" class="button hvr-pulse-grow"><img src= "explodingkittens.png" alt="Exploding Kittens"></a>
+			</div>
+			<div class = "button_container">
+				<a href="http://www.mollyjogger.com/" target="_blank" id="btn_mollyjogger" class="button hvr-hang"><img src= "mollyjogger.png" alt="Molly Jogger"></a>
+			</div>
+			<div class = "button_container">
+				<a href="https://www.stjude.org/" target="_blank" id="btn_stjude" class="button hvr-push"><img src= "stjude.jpg" alt="St Jude"></a>
+			</div>
+			<div class = "button_container">
+				<a href="http://www.newyorker.com/" target="_blank" id="btn_newyorker" class="button hvr-wobble-to-top-right"><img src= "newyorker.jpg" alt="New Yorker"></a>
+			</div>
+			<div class = "button_container">
+				<a href="http://www.foreflight.com/" target="_blank" id="btn_foreflight" class="button hvr-grow"><img src= "foreflight.jpg" alt="ForeFlight"></a>
+			</div>
+			<div class = "button_container">
+				<a href="http://www.npr.org/" target="_blank" id="btn_npr" class="button hvr-wobble-vertical"><img src= "npr.png" alt="NPR"></a>
+			</div>
+			<div class = "button_container">
+				<a href="https://tuckerallen.com/" target="_blank" id="btn_tuckerallen" class="button hvr-backward"><img src= "tuckerallen.jpg" alt="Tucker Allen"></a>
+			</div>
+			<div class = "button_container">
+				<a href="https://www.velocity.com/" target="_blank" id="btn_velocity" class="button hvr-wobble-top"><img src= "velocity.png" alt="Velocity"></a>
+			</div>
+			<div class = "button_container">
+				<a href="https://www.hsn.com/" target="_blank" id="btn_hsn" class="button hvr-grow"><img src= "hsn.png" alt="HSN"></a>
+			</div>
+			<div class = "button_container">
+				<a href="https://www.instagram.com/" target="_blank" id="btn_ig" class="button hvr-buzz-out"><img src= "ig.png" alt="Instagram"></a>
+			</div>
+			<div class = "button_container">
+				<a href="https://www.facebook.com/" target="_blank" id="btn_fb" class="button hvr-wobble-skew"><img src= "fb.png" alt="Facebook"></a>
+			</div>
+			<div class = "button_container">
+				<a href="http://www.electrabike.com/" target="_blank" id="btn_electrabike" class="button hvr-rotate"><img src= "electrabike.png" alt="Electrabike"></a>
+			</div>
+			<div class = "button_container">
+				<a href="http://www.oldnavy.com/" target="_blank" id="btn_oldnavy" class="button hvr-bob"><img src= "oldnavy.jpg" alt="Old Navy"></a>
+			</div>
+			<div class = "button_container">
+				<a href="https://www.army.mil/" target="_blank" id="btn_army" class="button hvr-wobble-to-top-right"><img src= "army.png" alt="Army"></a>
 			</div>
 
 
-http://www.nike.com/us/en_us/
-http://www.missouribotanicalgarden.org/
-http://hulkhogan.com/
-http://www.teslamotors.com/
-http://thecolorrun.com/
-http://www.moo.com/us/
-https://www.pottermore.com/
-http://www.fitbit.com/home
-http://www.explodingkittens.com/
-http://www.mollyjogger.com/
-https://www.stjude.org/
-http://www.newyorker.com/
-http://www.foreflight.com/
-http://www.npr.org/
-https://tuckerallen.com/
-https://www.velocity.com/
-https://www.hsn.com/
-https://www.instagram.com/
-https://www.facebook.com/
-http://www.electrabike.com/
-http://www.oldnavy.com/
-https://www.army.mil/
+
+
 
 
 
